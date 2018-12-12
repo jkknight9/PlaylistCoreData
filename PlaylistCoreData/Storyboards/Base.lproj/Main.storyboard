@@ -80,7 +80,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M6o-NM-he5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704.79999999999995" y="-3.1484257871064472"/>
+            <point key="canvasLocation" x="726" y="-3"/>
         </scene>
         <!--Songs Table View Controller-->
         <scene sceneID="acz-Uf-Ala">
@@ -154,7 +154,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCj-jC-cL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1408.8" y="-3.1484257871064472"/>
+            <point key="canvasLocation" x="1473" y="-3"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="afe-vt-TXk">
@@ -177,7 +177,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZr-yF-QQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8.8000000000000007" y="-3.1484257871064472"/>
+            <point key="canvasLocation" x="-30" y="-3"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
