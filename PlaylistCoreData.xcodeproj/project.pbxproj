@@ -12,6 +12,7 @@
 		E9FF6D7021C1852400BFD4EB /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF6D6F21C1852400BFD4EB /* CoreDataStack.swift */; };
 		E9FF6D7221C1895A00BFD4EB /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF6D7121C1895A00BFD4EB /* Song+Convenience.swift */; };
 		E9FF6D7521C18FB500BFD4EB /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF6D7421C18FB500BFD4EB /* PlaylistController.swift */; };
+		E9FF6D7721C1A86700BFD4EB /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF6D7621C1A86700BFD4EB /* SongController.swift */; };
 		FB80E2F521C14D20003C7951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80E2F421C14D20003C7951 /* AppDelegate.swift */; };
 		FB80E2FA21C14D20003C7951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB80E2F821C14D20003C7951 /* Main.storyboard */; };
 		FB80E2FC21C14D21003C7951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB80E2FB21C14D21003C7951 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		E9FF6D6F21C1852400BFD4EB /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		E9FF6D7121C1895A00BFD4EB /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 		E9FF6D7421C18FB500BFD4EB /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		E9FF6D7621C1A86700BFD4EB /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
 		FB80E2F121C14D20003C7951 /* PlaylistCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB80E2F421C14D20003C7951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB80E2F921C14D20003C7951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,10 +60,19 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		FB80E2E821C14D20003C7951 = {
+		E9FF6D7821C1AC2C00BFD4EB /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				E9FF6D7421C18FB500BFD4EB /* PlaylistController.swift */,
+				E9FF6D7621C1A86700BFD4EB /* SongController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		FB80E2E821C14D20003C7951 = {
+			isa = PBXGroup;
+			children = (
+				E9FF6D7821C1AC2C00BFD4EB /* Model Controllers */,
 				FB80E2F321C14D20003C7951 /* PlaylistCoreData */,
 				FB80E2F221C14D20003C7951 /* Products */,
 			);
@@ -185,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FF6D7721C1A86700BFD4EB /* SongController.swift in Sources */,
 				E9FF6D6E21C183D000BFD4EB /* Playlist+Covenience.swift in Sources */,
 				E9FF6D7521C18FB500BFD4EB /* PlaylistController.swift in Sources */,
 				FB80E30921C1503C003C7951 /* SongsTableViewController.swift in Sources */,
